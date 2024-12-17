@@ -10,7 +10,7 @@ API_HASH = environ['API_HASH']
 BOT_TOKEN = environ['BOT_TOKEN']
 
 # Set Pics
-PICS = (environ.get('PICS',  '')).split()
+PICS = (environ.get('PICS',  'https://telegra.ph/file/3abbdcb7d5fe638edb0ec.jpg')).split()
 # Messages
 default_start_msg = """
 **Hi, I'm bot """
